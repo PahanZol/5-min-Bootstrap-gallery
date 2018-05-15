@@ -1,0 +1,70 @@
+:root
+{
+	--maincolor:#2c3e50;
+}
+
+
+body
+{
+	padding-top: 70px;
+font-family: Ubuntu;
+}
+
+.jumbotron
+{
+	color:var(--maincolor);
+	background-color: #ebf6f9;
+	font-family: Ubuntu;
+	display: none;
+}
+
+
+
+.jumbotron span
+{
+	font-weight: bold;
+}
+
+.thumbnail:hover
+{
+	box-shadow: 0px 0px 15px var(--maincolor);
+}
+.navbar-inverse
+{
+	background-color: var(--maincolor);
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav li a:hover
+{
+		color: #c4e4ed;
+}
+
+.navbar-inverse .navbar-nav li:hover
+{
+	background-color: #3f5973;
+	transition: background-color 0.4s 0s linear;
+	border-radius: 3px;
+}
+
+.navbar-inverse .navbar-brand
+{
+	color: white;
+	font-weight: bold;
+	padding: 13px;
+}
+
+.navbar-inverse .navbar-brand:hover
+{
+	color: #c4e4ed;
+}
+
+#text
+{
+	text-align: center;
+}
+
